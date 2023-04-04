@@ -83,3 +83,34 @@ nav .drop div {
     width:1770%;
     margin:80%;
 }
+
+@media only screen and (max-device-width:500px) {
+    nav {
+        width:350%;
+        height:10%;
+    }
+    nav figure {
+        position:relative;
+        top:28%;
+        left: 3%;
+    }
+    nav figure img {
+        width:70%;
+    }    
+    nav .logo-text {
+        position:relative;
+        top:28%;
+        left: 3%;
+        width: fit-content;
+        font-size: 90%;
+    }
+    nav .links {
+        display: none;
+    }
+    nav .sign {
+        display: none;
+    }
+    nav .drop {
+        display:block;
+    }
+}
