@@ -1,0 +1,83 @@
+main .about {
+    position:relative;
+    top:10%;
+    display: inline-flex;
+    padding: 3rem 0rem;
+}
+main .about img{
+    position:relative;
+    top:5%;
+    left:17%;
+    width:30%;
+    height:20%;
+}
+main .about .text {
+    position: relative;
+    top:5%;
+    left: 33%;
+    display: block;
+    width:40%;
+    height:max-content;
+}
+main .about .text .heading {
+    font-size: 180%;
+    font-weight: bold;
+    padding:1.5rem 0rem;
+    width:80%;
+}
+main .about .text .description {
+    width:80%;
+}
+main .about .text .points {
+    display:block;
+    padding:0.5rem 0rem;
+}
+main .about .text .points div {
+    display:inline-flex;
+    width:100%;
+    margin:2% 0%;
+}
+main .about .text .points div img {
+    width:3%;
+    position:relative;
+    left:0%;
+}
+main .about .text .points div p {
+    position: relative;
+    left:2%;
+    font-weight: bold;
+}
+@media only screen and (max-device-width:768px) {
+    main .about {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 0.5rem 0rem;
+    }
+    main .about img{
+        margin-top: 3%;
+        width:70%;
+    }
+    main .about .text {
+        position: relative;
+        top:5%;
+        left: 18%;
+        display: block;
+        width:70%;
+        height:max-content;
+    }
+    main .about .text .points div img {
+        margin: 0%;
+        width: 5%;
+    }
+    main .about .text .heading {
+        font-size: 120%;
+        padding: 1rem 0rem;
+    }
+    main .about .text .description {
+        font-size: 80%;
+    }
+    main .about .text .points div p {
+        font-size: 70%;
+        margin: 0.5%;
+    }
+}
