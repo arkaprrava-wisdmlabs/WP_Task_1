@@ -7,14 +7,14 @@ main .about {
 main .about img{
     position:relative;
     top:5%;
-    left:17%;
+    left:15%;
     width:30%;
     height:20%;
 }
 main .about .text {
     position: relative;
     top:5%;
-    left: 33%;
+    left: 35%;
     display: block;
     width:40%;
     height:max-content;
