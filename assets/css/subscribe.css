@@ -9,7 +9,7 @@ main .subscribe {
     border-radius: 20px;
     padding: 1.5rem 1.5rem;
     margin-bottom: -1%;
-    box-shadow:7px 13px 35px rgba(0,0,0,0.09);
+    box-shadow:7px 13px 35px rgba(170,170,170);
 }
 main .subscribe .right{
     position: relative;
