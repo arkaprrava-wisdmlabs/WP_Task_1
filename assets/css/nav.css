@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+}
+html,body
+
+{
+    overflow-x: hidden;
+    font-family: 'Rubik',sans-serif;
+}
+nav {
+    width:max-content;
+    height: 15%;
+    background-color: #ffffff;
+    position: relative;
+    display: inline-flex;
+    top:0%;
+}
+nav figure {
+    position:relative;
+    top:29%;
+    left: 10%;
+}
+nav figure img {
+    width:30px;
+}
+nav .logo-text {
+    position:relative;
+    top:30%;
+    left: 11.5%;
+    width: fit-content;
+    font-size: 150%;
+}
+nav .links {
+    position: relative;
+    top:19%;
+    left:25%;
+    display: inline-flex;
+    justify-content: center;
+    width:fit-content;
+}
+nav .links div {
+    width: fit-content;
+    padding: 1rem 3rem;
+    font-size: 110%;
+}
+nav .links div:hover{
+    color:#f53838;
+}
+nav .sign {
+    justify-content: flex-end;
+    position: relative;
+    top:23%;
+    left:35%;
+    display: inline-flex;
+    height:fit-content;
+}
+nav .sign div {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    font-size: 110%;
+    margin:0rem 2rem;
+}
+nav .sign .button {
+    color: #f53838;
+    border:2px solid #dc3636;
+    border-radius: 30px;
+}
+nav .sign .button:hover {
+    color: #ffffff;
+    background-color: #dc3636;
+    box-shadow: 2px 5px 15px rgb(170, 170, 170);
+}
+nav .drop {
+    float:right;
+    display:none;
+    margin-top: 1.5rem;
+    margin-left: 16%;
+}
+nav .drop div {
+    background-color:black;
+    border:1px solid black;
+    border-radius: 24px;
+    width:1770%;
+    margin:80%;
+}
