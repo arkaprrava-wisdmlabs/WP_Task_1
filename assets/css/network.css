@@ -1,0 +1,40 @@
+main .network {
+    display:block;
+    margin: 3% 2%;
+}
+main .network .text {
+    align-items: center;
+}
+main .network .text .heading {
+    font-size: 180%;
+    font-weight: bold;
+    padding: 1% 0%;
+    text-align: center;
+}
+main .network .text .description {
+    width:35%;
+    text-align: center;
+    padding: 0.5% auto;
+    margin: 1% auto;
+}
+main .network .text img {
+    width:50%;
+    padding: 0% 25%;
+    margin: 0% auto;
+}
+@media only screen and (max-device-width:500px) {
+    main .network .text .heading {
+        font-size: 120%;
+        width:50%;
+        margin:0% 25%;
+    }
+    main .network .text .description {
+        font-size:80%;
+        width:65%;
+    }
+    main .network .text img {
+        width:70%;
+        padding: 5% 15%;
+        margin: 0% auto;
+    }
+}
