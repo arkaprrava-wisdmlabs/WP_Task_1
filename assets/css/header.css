@@ -1,0 +1,66 @@
+main header {
+    display:inline-flex;
+}
+main header div {
+    position:relative;
+    left:10%;
+    width:70%;
+    justify-content: flex-start;
+}
+main header div p {
+    font-size:180%;
+    width:50%;
+    margin: 0.5rem 3rem;
+}
+main header div button {
+    position: relative;
+    top:1%;
+    width:fit-content;
+    font-size: 110%;
+    font-weight: bold;
+    color:antiquewhite;
+    background-color: #dc3636;
+    border:1px solid #dc3636;
+    border-radius: 20px;
+    padding: 1.5% 4.5%;
+    margin: 0.5rem 2.7rem;
+}
+main header div button:hover {
+    box-shadow: 2px 5px 15px rgb(170, 170, 170);
+}
+main header img {
+    position:relative;
+    right:5%;
+    width:30%;
+}
+@media only screen and (max-device-width:500px) {
+    main header {
+        display:block;
+        margin-left: 1%;
+        margin-bottom: 10%;
+        height: fit-content;
+    }
+    main header div {
+        position:relative;
+        left:5%;
+    }
+    main header div p {
+        margin-top: 3%;
+        font-size: 120%;
+        width: 80%;
+    }
+    main header div button {
+        margin: 1% 2.7rem;
+        font-size: 80%;
+    }
+    main header div button:hover {
+        box-shadow: 1px 5px 8px rgb(170, 170, 170);
+
+    }
+    main header img {
+        margin-top: 3%;
+        margin-left: 24%;
+        width:60%;
+        height:50%;
+    }
+}
